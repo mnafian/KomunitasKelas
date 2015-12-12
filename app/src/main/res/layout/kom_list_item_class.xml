@@ -1,0 +1,54 @@
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/ic_sample"
+            android:padding="15dp"
+            android:id="@+id/category_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_toRightOf="@+id/category_image"
+            android:text="Biologi 11C"
+            android:id="@+id/tv_class_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/category_image"
+            android:text="Last activity 12.00 PM"
+            android:layout_below="@id/tv_class_name"
+            android:id="@+id/tv_desc_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_more_black"
+            android:padding="15dp"
+            android:id="@+id/menu_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

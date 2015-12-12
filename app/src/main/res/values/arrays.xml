@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="random_imgs">
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+        <item>@drawable/ic_sample</item>
+    </integer-array>
+
+</resources>
