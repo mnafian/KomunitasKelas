@@ -3,12 +3,10 @@ package com.inagata.komunitaskelas.data.api;
 import com.inagata.komunitaskelas.data.api.response.ListResponse;
 import com.inagata.komunitaskelas.data.model.LoginCredential;
 import com.inagata.komunitaskelas.data.model.SchoolClass;
-import com.inagata.komunitaskelas.data.model.SubjectClass;
 
 import id.zelory.benih.network.BenihServiceGenerator;
 import retrofit.http.Field;
 import retrofit.http.FormUrlEncoded;
-import retrofit.http.GET;
 import retrofit.http.POST;
 import rx.Observable;
 
@@ -33,22 +31,19 @@ public enum KomunitasKelasApi
         return KELASAPI;
     }
 
+    public API getAPI() {
+        return api;
+    }
+
     public interface API {
         String ENDPOINT = "http://dev.inagata.com/hack-gata/v1";
 
         @FormUrlEncoded
         @POST("/login")
-        Observable<ListResponse<LoginCredential>> doLogin(@Field("email") String email, @Field("password") String password);
+        Observable<LoginCredential> doLogin(@Field("email") String email, @Field("password") String password);
 
         @POST("/class")
         Observable<ListResponse<SchoolClass>> addClass(@Field("name") String name, @Field("subject") String subject, @Field("id_school") String idSchool);
 
-        @GET("/subject")
-        Observable<ListResponse<SubjectClass>> getSubject();
-
-    }
-
-    public API getAPI() {
-        return api;
     }
 }

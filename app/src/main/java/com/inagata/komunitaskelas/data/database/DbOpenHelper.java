@@ -28,7 +28,7 @@ public class DbOpenHelper extends SQLiteOpenHelper{
         db.beginTransaction();
         try
         {
-            db.execSQL(Db.BookmarkTable.CREATE);
+            db.execSQL(Db.UserAttribute.CREATE);
             db.setTransactionSuccessful();
         } finally
         {

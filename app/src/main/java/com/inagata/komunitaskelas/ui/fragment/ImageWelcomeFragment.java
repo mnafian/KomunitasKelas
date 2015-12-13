@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.inagata.komunitaskelas.R;
-import com.inagata.komunitaskelas.ui.activity.SignInActivity;
+import com.inagata.komunitaskelas.ui.activity.LoginActivity;
 
 import butterknife.Bind;
 import id.zelory.benih.fragment.BenihFragment;
@@ -55,7 +55,7 @@ public class ImageWelcomeFragment extends BenihFragment
 
     private void submit(View view)
     {
-        Intent intent = new Intent(getActivity(), SignInActivity.class);
+        Intent intent = new Intent(getActivity(), LoginActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

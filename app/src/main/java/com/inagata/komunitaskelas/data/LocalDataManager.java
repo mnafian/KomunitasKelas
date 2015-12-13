@@ -10,5 +10,4 @@ package com.inagata.komunitaskelas.data;
  */
 public class LocalDataManager {
 
-
 }

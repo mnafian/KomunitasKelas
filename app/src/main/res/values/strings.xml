@@ -39,4 +39,12 @@
     <string name="hint_username">Surel</string>
     <string name="type_your_message">Enter msg</string>
     <string name="NoRecent">No recent</string>
+    <string name="error_empty">Field tidak boleh kosong</string>
+    <string name="ok">OK</string>
+    <string name="error">Terjadi kesalahan</string>
+    <string name="error_email">Email tidak benar</string>
+    <string name="button_pinned">Pinned</string>
+    <string name="button_voted">Voted</string>
+    <string name="activity_detail_qustion">Details Question</string>
+    <string name="write_answer">Tulis komentar</string>
 </resources>

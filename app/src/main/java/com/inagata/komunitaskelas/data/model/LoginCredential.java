@@ -13,20 +13,6 @@ import android.os.Parcelable;
  */
 public class LoginCredential implements Parcelable{
 
-    private String error;
-    private String email;
-    private String message;
-    private String apiKey;
-    private String idSchool;
-
-    protected LoginCredential(Parcel in){
-        error = in.readString();
-        email = in.readString();
-        message = in.readString();
-        apiKey  = in.readString();
-        idSchool = in.readString();
-    }
-
     public static final Creator<LoginCredential> CREATOR = new Creator<LoginCredential>()
     {
         @Override
@@ -41,6 +27,23 @@ public class LoginCredential implements Parcelable{
             return new LoginCredential[size];
         }
     };
+    private String error;
+    private String email;
+    private String message;
+    private String api_key;
+    private String idSchool;
+
+    public LoginCredential(Parcel in) {
+        error = in.readString();
+        email = in.readString();
+        message = in.readString();
+        api_key = in.readString();
+        idSchool = in.readString();
+    }
+
+    public LoginCredential() {
+
+    }
 
     public String getError() {
         return error;
@@ -67,11 +70,11 @@ public class LoginCredential implements Parcelable{
     }
 
     public String getApiKey() {
-        return apiKey;
+        return api_key;
     }
 
     public void setApiKey(String apiKey) {
-        this.apiKey = apiKey;
+        this.api_key = apiKey;
     }
 
     public String getIdSchool() {
@@ -92,7 +95,7 @@ public class LoginCredential implements Parcelable{
         dest.writeString(error);
         dest.writeString(email);
         dest.writeString(message);
-        dest.writeString(apiKey);
+        dest.writeString(api_key);
         dest.writeString(idSchool);
     }
 }
