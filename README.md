@@ -69,9 +69,9 @@ Susunan project adalah sebagai berikut :
 |-gradle<br>
 
 Untuk tampillan chat/message menggunakan chat starter milik madhur di <a href="https://github.com/madhur/android-chat-starter"> Sini </a>
-Jadi memerlukan NDK untuk melakukan build. Untuk pertanyaan lebih lanjut silahkan contact saya di <a href="mailto:mnafian@icloud.com"> mnafian@icloud.com </a>.
+Jadi memerlukan NDK untuk melakukan build. Pada project ini sudah menerapkan penggunaan functional programming dengan mengimplementasikan library android reactivex.
 
-Pada project ini sudah menerapkan penggunaan functional programming dengan mengimplementasikan library android reactivex.
+Untuk pertanyaan lebih lanjut silahkan contact saya di <a href="mailto:mnafian@icloud.com"> mnafian@icloud.com </a>.
 
 License
 -------
