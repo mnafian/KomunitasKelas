@@ -55,6 +55,13 @@ Susunan project adalah sebagai berikut :
 |----assets<br>
 |----java<br>
 |-----com.inagata.komunitaskelas<br>
+|------controller<br>
+|------data<br>
+|-------api<br>
+|-------database<br>
+|-------model<br>
+|------service<br>
+|------ui<br>
 |-----in.co.madhur.chatlib<br>
 |----res<br>
 |---test<br>
@@ -63,6 +70,8 @@ Susunan project adalah sebagai berikut :
 
 Untuk tampillan chat/message menggunakan chat starter milik madhur di <a href="https://github.com/madhur/android-chat-starter"> Sini </a>
 Jadi memerlukan NDK untuk melakukan build. Untuk pertanyaan lebih lanjut silahkan contact saya di <a href="mailto:mnafian@icloud.com"> mnafian@icloud.com </a>.
+
+Pada project ini sudah menerapkan penggunaan functional programming dengan mengimplementasikan library android reactivex.
 
 License
 -------
