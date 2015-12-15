@@ -1,16 +1,16 @@
 ##Komunitas Kelas
 
-#Apa itu komunitas kelas?
+###Apa itu komunitas kelas?
 
 Komunitas Kelas adalah aplikasi diskusi diluar KBM bagi guru dan siswa.
 
-#Kegunaan utama?
+###Kegunaan utama?
 Menghilangkan kesenjangan antara siswa dan guru untuk saling berkomunikasi lebih terbuka
 
-#Apa kelebihannya?
+###Apa kelebihannya?
 Setiap pengguna bisa memberikan rating untuk setiap jawaban pada setiap pertanyaan yang diajukan di komunitas
 
-#Penjelasan project
+###Penjelasan project
 
 Project ini menggunakan framework milik mas Zelory bernama <a href="https://github.com/zetbaitsu/Benih/"> Benih</a> , dan sudah menerapkan
 arsitektur android dengan skema 'android clean architecture' yang memisahkan antara Presentation layer, Domain Layer, dan Data Layer.
@@ -43,23 +43,23 @@ dependencies {
 
 Susunan project adalah sebagai berikut :
 
-|KomunitasKelas
-|-app
-|--build
-|--jni
-|--libs
-|--obj
-|--src
-|---androidTest
-|---main
-|----assets
-|----java
-|-----com.inagata.komunitaskelas
-|-----in.co.madhur.chatlib
-|----res
-|---test
-|-build
-|-gradle
+|KomunitasKelas<br>
+|-app<br>
+|--build<br>
+|--jni<br>
+|--libs<br>
+|--obj<br>
+|--src<br>
+|---androidTest<br>
+|---main<br>
+|----assets<br>
+|----java<br>
+|-----com.inagata.komunitaskelas<br>
+|-----in.co.madhur.chatlib<br>
+|----res<br>
+|---test<br>
+|-build<br>
+|-gradle<br>
 
 Untuk tampillan chat/message menggunakan chat starter milik madhur di <a href="https://github.com/madhur/android-chat-starter"> Sini </a>
 Jadi memerlukan NDK untuk melakukan build. Untuk pertanyaan lebih lanjut silahkan contact saya di <a href="mailto:mnafian@icloud.com"> mnafian@icloud.com </a>.
