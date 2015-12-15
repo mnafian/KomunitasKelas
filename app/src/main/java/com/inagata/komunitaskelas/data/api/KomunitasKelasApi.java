@@ -2,6 +2,7 @@ package com.inagata.komunitaskelas.data.api;
 
 import com.inagata.komunitaskelas.data.api.response.ListResponse;
 import com.inagata.komunitaskelas.data.model.LoginCredential;
+import com.inagata.komunitaskelas.data.model.Register;
 import com.inagata.komunitaskelas.data.model.SchoolClass;
 
 import id.zelory.benih.network.BenihServiceGenerator;
@@ -44,6 +45,9 @@ public enum KomunitasKelasApi
 
         @POST("/class")
         Observable<ListResponse<SchoolClass>> addClass(@Field("name") String name, @Field("subject") String subject, @Field("id_school") String idSchool);
+
+        @POST("/register")
+        Observable<Register> registerUser(@Field("full_name") String fullName, @Field("id_status") String idStatus, @Field("id_state") String idState, @Field("ic_city") String idCity, @Field("id_school") String idSchool, @Field("email") String email, @Field("password") String idPassword);
 
     }
 }

@@ -24,5 +24,6 @@
     <color name="orange">@android:color/holo_blue_light</color>
     <color name="background_tab_pressed">#6633B5E5</color>
     <color name="green_vote">#8EC63F</color>
+    <color name="rc_bg_color">#E7E7E7</color>
 
 </resources>
