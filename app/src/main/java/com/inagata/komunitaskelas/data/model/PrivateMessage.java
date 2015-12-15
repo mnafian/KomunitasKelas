@@ -24,28 +24,48 @@ public class PrivateMessage implements Parcelable {
             return new PrivateMessage[size];
         }
     };
-    private String namePerson;
-    private String statusLastMessage;
+    private String class_fullname;
+    private String normal;
+    private String class_time;
+    private String class_message;
 
     protected PrivateMessage(Parcel in) {
-        namePerson = in.readString();
-        statusLastMessage = in.readString();
+        class_fullname = in.readString();
+        normal = in.readString();
+        class_time = in.readString();
+        class_message = in.readString();
     }
 
-    public String getNamePerson() {
-        return namePerson;
+    public String getClass_fullname() {
+        return class_fullname;
     }
 
-    public void setNamePerson(String namePerson) {
-        this.namePerson = namePerson;
+    public void setClass_fullname(String class_fullname) {
+        this.class_fullname = class_fullname;
     }
 
-    public String getStatusLastMessage() {
-        return statusLastMessage;
+    public String getNormal() {
+        return normal;
     }
 
-    public void setStatusLastMessage(String statusLastMessage) {
-        this.statusLastMessage = statusLastMessage;
+    public void setNormal(String normal) {
+        this.normal = normal;
+    }
+
+    public String getClass_time() {
+        return class_time;
+    }
+
+    public void setClass_time(String class_time) {
+        this.class_time = class_time;
+    }
+
+    public String getClass_message() {
+        return class_message;
+    }
+
+    public void setClass_message(String class_message) {
+        this.class_message = class_message;
     }
 
     @Override
@@ -55,7 +75,9 @@ public class PrivateMessage implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(namePerson);
-        dest.writeString(statusLastMessage);
+        dest.writeString(class_fullname);
+        dest.writeString(class_message);
+        dest.writeString(class_time);
+        dest.writeString(normal);
     }
 }

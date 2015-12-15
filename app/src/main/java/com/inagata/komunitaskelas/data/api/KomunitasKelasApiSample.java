@@ -43,7 +43,7 @@ public enum KomunitasKelasApiSample {
         @GET("/5d7158714cc2a7121e98/raw/62dc06466bdce052c7a8ccb67e5e860f8728fb11/ListClass.json")
         Observable<List<SchoolClass>> getClassList();
 
-        @GET("/cf2c9ba15f7b85c3afaa/raw/0a81580521acedc4b5085f2386eeb50630861039/ListSubject.json")
+        @GET("/cf2c9ba15f7b85c3afaa/raw/0d3592157a92b9dda39b02e8273b43cb55e1b89f/ListSubject.json")
         Observable<List<SubjectClass>> getSubjectList();
 
         @GET("/124efbf9023d41bd03d7/raw/62fe5f2b5124327d608b3e24b3b189f118a7acd7/DetailPost.json")

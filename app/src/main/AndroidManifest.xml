@@ -10,6 +10,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -38,8 +39,12 @@
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize">
         </activity>
-        <activity android:name=".ui.activity.ThreadActivity" />
-        <activity android:name=".ui.activity.ThreadDetailActivity" />
+        <activity
+            android:name=".ui.activity.ThreadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ThreadDetailActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

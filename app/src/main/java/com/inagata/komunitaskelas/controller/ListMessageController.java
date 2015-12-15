@@ -26,7 +26,7 @@ public class ListMessageController extends BenihController<ListMessageController
 
     public ListMessageController(Presenter presenter) {
         super(presenter);
-        Timber.d("ListControllerList created");
+        Timber.d("ListMessageList created");
     }
 
     public void getListMessage() {
