@@ -7,6 +7,13 @@ Komunitas Kelas adalah aplikasi diskusi diluar KBM bagi guru dan siswa.
 ###Kegunaan utama?
 Menghilangkan kesenjangan antara siswa dan guru untuk saling berkomunikasi lebih terbuka
 
+###Screenshhot
+<img src="https://raw.githubusercontent.com/mnafian/KomunitasKelas/master/1.1.create%20class.jpg"  width="320" height="550">
+<img src="https://raw.githubusercontent.com/mnafian/KomunitasKelas/master/2.1.chat.jpg"  width="320" height="550">
+<img src="https://raw.githubusercontent.com/mnafian/KomunitasKelas/master/detail%20question%20with%20menu.jpg"  width="320" height="550">
+<img src="https://raw.githubusercontent.com/mnafian/KomunitasKelas/master/detail%20question.jpg"  width="320" height="550">
+<img src="https://raw.githubusercontent.com/mnafian/KomunitasKelas/master/home%20with%20menu%20group.jpg" width="320" height="550">
+
 ###Apa kelebihannya?
 Setiap pengguna bisa memberikan rating untuk setiap jawaban pada setiap pertanyaan yang diajukan di komunitas
 
